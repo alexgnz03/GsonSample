@@ -10,7 +10,7 @@ public class Main {
 
 	public static void main(String[] args) {
 
-		//	TODO: Creación de Persona y asignación de datos
+		//TODO: Creación de Persona y asignación de datos
 		
 		//Creamos nueva Persona
 		Persona p = new Persona(); 
@@ -27,7 +27,7 @@ public class Main {
 		p.setEdad(entrada.nextInt());
 		
 		
-		//	TODO: Convertir la Persona a JSON
+		//TODO: Convertir la Persona a JSON
 		
 		//Creamos un Gson con formato
 		Gson gson = new GsonBuilder().setPrettyPrinting().create();
